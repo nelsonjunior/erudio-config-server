@@ -3,10 +3,4 @@ spring:
     name: 'greeting-service'
 greeting-service:
   default-value: 'Mondo'
-  greeting: 'Cia'
-management:
-  endpoints:
-    web:
-      exposure:
-        include:
-          - '*'
+  greeting: 'Ciao'
