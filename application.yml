@@ -4,3 +4,9 @@ spring:
 greeting-service:
   default-value: 'World'
   greeting: 'Hello'
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - '*'
